@@ -13,4 +13,3 @@ The size of all sprites is 258x258.
 Email <a href="dracblaustudio@gmail.com">dracblaustudio@gmail.com</a> with:
 - Steps to reproduce
 - Logs / screenshots / minimal repro project (if possible)
-

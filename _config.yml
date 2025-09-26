@@ -6,3 +6,5 @@ show_downloads: false
 baseurl: "/dracblaustudio-assets"
 url: "https://alexmartin9.github.io"
 logo: "/dracblaustudio-assets/assets/img/logo.png"
+github:
+  is_project_page: false
