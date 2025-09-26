@@ -39,7 +39,7 @@ Buttons wired to call Generate and Reset at runtime. You can call the same publi
 
 ## Tools & Features
 
-1. ProceduralMapsGenerator
+### 1. ProceduralMapsGenerator
 Generates a random map from parameters. Two modes:
 - Experimentation: Uncheck Should Use Map SO Params to tweak values directly in the component. The intended use is to first experiment with values here and when you like a map configuration, copy the parameters into a MapSO (see below). 
 - Runtime / data driven: Check Should Use Map SO Params to read all parameters from a Map SO. 
@@ -49,7 +49,7 @@ General Parameters:
 - Starting Points Offset — Minimum distance between starting points so they don’t overlap at start.
 - Building Nodes Margin Offset — Minimum spacing between spawned build nodes.
 
-Map Parameters (overrides when not using Map SO)
+Map Parameters (overrides when not using Map SO):
 - Map Width / Height — Number of tiles per row/column.
 - Num Starting Points — Initial paths the map will have (or end leaves for mining for example).
 - Spawn Left Probability (0–1) — Chance a step moves left/back. (If set to 0, the path will never move left, if 1 it will only move left.)
@@ -57,12 +57,13 @@ Map Parameters (overrides when not using Map SO)
 - Max Line Length — Maximum tiles allowed in a straight line (higher → straighter paths).
 - N Building Nodes — How many tower nodes to spawn.
 
-Map Difficulty Filter (optional)
+Map Difficulty Filter (optional):
+
 Enable Should Filter Map Difficulty to keep only maps within a difficulty range computed by a heuristic. The current implementation estimates difficulty based on path proximity, tower coverage, and overlap. You can extend CalculateMapDifficulty() to fit your game.
 -Min / Max Diff Metrics — Target difficulty range.
 - Tower Ranges — A list of your tower ranges (e.g., [3, 1, 1.5]).
 
-2. MapSO (Map ScriptableObject)
+### 2. MapSO (Map ScriptableObject)
 This is how you can store data about map’s creation blueprints. Pre-define the following:
 - MapN — Identifier.
 - Background Sprite — Background behind paths.
@@ -81,20 +82,19 @@ This is how you can store data about map’s creation blueprints. Pre-define the
 - Min / Max Diff Metrics — Difficulty range (for filtering).
 
 
-3. MapTilesPathSO
+### 3. MapTilesPathSO
 Stores tiles used per path shape/type, for example:
 - TileRL - Tile containing a path that moves left to right.
 - TileNoD - Tile containing the triple intersection of 3 paths (up, right, left) and no path down.
 
-4. ObstaclesManager
+### 4. ObstaclesManager
 A singleton that spawns obstacles/decoration around the generated paths. Called by ProceduralMapsGenerator; tweak amounts here.
 - Obstacles Quantity — 0 disables obstacles; 1 uses all. (Use intermediate values if you expose density controls.)
 
-
-5. MapCleaner
+### 5. MapCleaner
 Provides ResetMap() to remove all generated tiles, nodes, and obstacles.
 
-6. Other Utils Codes 
+### 6. Other Utils Codes 
 Helper functions used by ProceduralMapsGenerator; kept separate for clarity.
 
 
