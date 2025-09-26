@@ -1,16 +1,20 @@
 ---
-title: Unity Asset Support
+title: Drac Blau Studio Assets
 ---
 
-# Unity Asset Support
+<p align="center">
+  <img src="{{ site.baseurl }}/assets/img/logo.png" alt="Drac Blau Studio" width="200"/>
+</p>
+
+<h1 align="center">Drac Blau Studio Assets</h1>
 
 Welcome! This site hosts documentation, FAQs, and support links for our Unity assets.
 
 ## Quick Links
-- **Email support:** <a href="mailto:dracblaustudio@gmail.com">dracblaustudio@gmail.com</a>
-- **Report a bug:** <a href="https://github.com/alexmartin9/dracblaustudio-assets/issues">GitHub Issues</a>
-- **Changelog:** [changelog](./changelog.md)
-- **FAQ:** [faq](./faq.md)
+- **Email support:** <a href="mailto:dracblaustudio@gmail.com">dracblaustudio@gmail.com</a>  
+- **Report a bug:** <a href="https://github.com/alexmartin9/dracblaustudio-assets/issues">GitHub Issues</a>  
+- **Changelog:** [changelog]({{ site.baseurl }}/changelog.html)  
+- **FAQ:** [faq]({{ site.baseurl }}/faq.html)  
 
 ---
 
@@ -24,48 +28,48 @@ Welcome! This site hosts documentation, FAQs, and support links for our Unity as
 </style>
 
 <div class="asset-row">
-  <img src="./assets/img/fantasy_td_maps.png" alt="Fantasy TD Maps">
+  <img src="{{ site.baseurl }}/assets/img/fantasy_td_maps.png" alt="Fantasy TD Maps">
   <div class="meta">
     <div class="title">Fantasy TD Maps</div>
     <div>
-      <a href="./assets/fantasy_td_maps.md">docs</a> · 
-      <a href="./faq.md">FAQ</a> · 
+      <a href="{{ site.baseurl }}/assets/fantasy_td_maps.html">docs</a> · 
+      <a href="{{ site.baseurl }}/faq.html">FAQ</a> · 
       <a href="mailto:dracblaustudio@gmail.com">Contact</a>
     </div>
   </div>
 </div>
 
 <div class="asset-row">
-  <img src="./assets/img/procedural_paths_generator.png" alt="Procedural Paths Generator">
+  <img src="{{ site.baseurl }}/assets/img/procedural_paths_generator.png" alt="Procedural Paths Generator">
   <div class="meta">
     <div class="title">Procedural Paths Generator</div>
     <div>
-      <a href="./assets/procedural_paths_generator.md">docs</a> · 
-      <a href="./faq.md">FAQ</a> · 
+      <a href="{{ site.baseurl }}/assets/procedural_paths_generator.html">docs</a> · 
+      <a href="{{ site.baseurl }}/faq.html">FAQ</a> · 
       <a href="mailto:dracblaustudio@gmail.com">Contact</a>
     </div>
   </div>
 </div>
 
 <div class="asset-row">
-  <img src="./assets/img/fantasy_td_towers_projectiles.png" alt="Fantasy TD Towers & Projectiles">
+  <img src="{{ site.baseurl }}/assets/img/fantasy_td_towers_projectiles.png" alt="Fantasy TD Towers & Projectiles">
   <div class="meta">
     <div class="title">Fantasy TD Towers & Projectiles</div>
     <div>
-      <a href="./assets/fantasy_td_towers_projectiles.md">docs</a> · 
-      <a href="./faq.md">FAQ</a> · 
+      <a href="{{ site.baseurl }}/assets/fantasy_td_towers_projectiles.html">docs</a> · 
+      <a href="{{ site.baseurl }}/faq.html">FAQ</a> · 
       <a href="mailto:dracblaustudio@gmail.com">Contact</a>
     </div>
   </div>
 </div>
 
 <div class="asset-row">
-  <img src="./assets/img/fantasy_relics.png" alt="360 Fantasy Relics">
+  <img src="{{ site.baseurl }}/assets/img/fantasy_relics.png" alt="360 Fantasy Relics">
   <div class="meta">
     <div class="title">360 Fantasy Relics</div>
     <div>
-      <a href="./assets/fantasy_relics.md">docs</a> · 
-      <a href="./faq.md">FAQ</a> · 
+      <a href="{{ site.baseurl }}/assets/fantasy_relics.html">docs</a> · 
+      <a href="{{ site.baseurl }}/faq.html">FAQ</a> · 
       <a href="mailto:dracblaustudio@gmail.com">Contact</a>
     </div>
   </div>
@@ -74,10 +78,10 @@ Welcome! This site hosts documentation, FAQs, and support links for our Unity as
 ---
 
 ## Support Policy (TL;DR)
-- We support the **latest LTS Unity versions**.
-- Response time: **1–7 business days**.
-- Please include **Unity version**, **repro steps**, and **logs**.
-- For refunds, follow the **Unity Asset Store policy** and contact us with your invoice number.
+- We support the **latest LTS Unity versions**.  
+- Response time: **1–7 business days**.  
+- Please include **Unity version**, **repro steps**, and **logs**.  
+- For refunds, follow the **Unity Asset Store policy** and contact us with your invoice number.  
 
 ---
 

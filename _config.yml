@@ -1,3 +1,8 @@
-title: Unity Asset Support
-description: Documentation, FAQs, and contact for Unity Asset Store packages.
+title: "Drac Blau Studio Assets"
+logo: "/assets/img/logo.png"
+description: "Documentation, FAQs, and support for Drac Blau Studio Unity assets."
 theme: jekyll-theme-minimal
+show_downloads: false
+baseurl: "/dracblaustudio-assets"
+url: "https://alexmartin9.github.io"
+logo: "/dracblaustudio-assets/assets/img/logo.png"
