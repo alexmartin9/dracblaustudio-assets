@@ -13,7 +13,7 @@ Welcome! This site hosts documentation, FAQs, and support links for our Unity as
 ## Quick Links
 - **Email support:** <a href="mailto:dracblaustudio@gmail.com">dracblaustudio@gmail.com</a>  
 - **Report a bug:** <a href="https://github.com/alexmartin9/dracblaustudio-assets/issues">GitHub Issues</a>  
-- **FAQ:** [faq]({{ site.baseurl }}/docs/faq.html)  
+- **FAQ:** [faq]({{ site.baseurl }}/faq.html)  
 
 ---
 
@@ -31,7 +31,7 @@ Welcome! This site hosts documentation, FAQs, and support links for our Unity as
   <div class="meta">
     <div class="title">Fantasy TD Maps</div>
     <div>
-      <a href="{{ site.baseurl }}/docs/assets/fantasy_td_maps.html">docs</a> · 
+      <a href="{{ site.baseurl }}/assets/fantasy_td_maps.html">docs</a> · 
       <a href="{{ site.baseurl }}/faq.html">FAQ</a> · 
       <a href="mailto:dracblaustudio@gmail.com">Contact</a>
     </div>
@@ -55,8 +55,8 @@ Welcome! This site hosts documentation, FAQs, and support links for our Unity as
   <div class="meta">
     <div class="title">Fantasy TD Towers & Projectiles</div>
     <div>
-      <a href="{{ site.baseurl }}/assets/fantasy_td_towers_projectiles.md">docs</a> · 
-      <a href="{{ site.baseurl }}/faq.md">FAQ</a> · 
+      <a href="{{ site.baseurl }}/assets/fantasy_td_towers_projectiles.html">docs</a> · 
+      <a href="{{ site.baseurl }}/faq.html">FAQ</a> · 
       <a href="mailto:dracblaustudio@gmail.com">Contact</a>
     </div>
   </div>
@@ -67,8 +67,8 @@ Welcome! This site hosts documentation, FAQs, and support links for our Unity as
   <div class="meta">
     <div class="title">360 Fantasy Relics</div>
     <div>
-      <a href="{{ site.baseurl }}/assets/fantasy_relics.md">docs</a> · 
-      <a href="{{ site.baseurl }}/faq.md">FAQ</a> · 
+      <a href="{{ site.baseurl }}/assets/fantasy_relics.html">docs</a> · 
+      <a href="{{ site.baseurl }}/faq.html">FAQ</a> · 
       <a href="mailto:dracblaustudio@gmail.com">Contact</a>
     </div>
   </div>
